@@ -48,7 +48,10 @@ setup(
         'girder-slicer-cli-web',
         'girder-client',
         'ctk-cli',
-        'spatialdata'
+        'shapely==2.0.1',
+        'geopandas==0.14.3',
+        'large-image[all]',
+        'spatialdata==0.1.0'
     ],
     license='Apache Software License 2.0',
     keywords='RegisterLandmarks',
